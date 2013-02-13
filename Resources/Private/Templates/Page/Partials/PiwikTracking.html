@@ -1,0 +1,17 @@
+<!-- Piwik -->
+<script type="text/javascript">
+	var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.typo3.org/" : "http://piwik.typo3.org/");
+	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	<![CDATA[
+	try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", ]]>{siteId}<![CDATA[);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+	} catch (err) {
+	}
+	]]>
+</script>
+<noscript><p><img src="http://piwik.typo3.org/piwik.php?idsite={siteId}" style="border:0" alt=""/></p></noscript>
+<!-- End Piwik Tracking Code -->

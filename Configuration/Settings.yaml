@@ -1,0 +1,103 @@
+#                                                                        #
+# Default settings for the "TYPO3.T3con12QuebecTypo3Org" Site            #
+#                                                                        #
+
+TYPO3:
+
+   # redirect to login page when trying to access a protected page:
+  FLOW3:
+    security:
+      authentication:
+        providers:
+          DefaultProvider:
+            provider: PersistedUsernamePasswordProvider
+            entryPoint: 'WebRedirect'
+            entryPointOptions:
+              uri: 'login.html'
+
+   # Conference plugin -> node mapping:
+  Conference:
+    targetNodeMappings:
+      'typo3_typo3_typoscript_plugin':
+        - package: TYPO3.Conference
+          controller: Conference
+          targetNode: 3f5d7971-3a42-461d-b2b9-0dc03aefa604
+        - package: TYPO3.Conference
+          controller: Conference\Location
+          targetNode: 3f5d7971-3a42-461d-b2b9-0dc03aefa604
+        - package: TYPO3.Conference
+          controller: Conference\Location\Room
+          targetNode: 3f5d7971-3a42-461d-b2b9-0dc03aefa604
+        - package: TYPO3.Conference
+          controller: Conference\Track
+          targetNode: 3f5d7971-3a42-461d-b2b9-0dc03aefa604
+        - package: TYPO3.Conference
+          controller: Conference\SessionType
+          targetNode: 3f5d7971-3a42-461d-b2b9-0dc03aefa604
+        - package: TYPO3.Conference
+          controller: Conference\IntermissionType
+          targetNode: 3f5d7971-3a42-461d-b2b9-0dc03aefa604
+        - package: TYPO3.Conference
+          controller: Account\Login
+          targetNode: 27638c83-1c1e-417a-8ce2-ebdc64a3eeca
+        - package: TYPO3.Conference
+          controller: Account\Overview
+          targetNode: d511a3c7-601a-433a-89ed-bb9c9325a49c
+        - package: TYPO3.Conference
+          controller: Account\SpeakerProfile
+          targetNode: d765b971-68ca-427b-a827-07c1b158918b
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: new
+          targetNode: 5f0d1e7b-3f87-41bd-8217-b22a143003a6
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: create
+          targetNode: 5f0d1e7b-3f87-41bd-8217-b22a143003a6
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: edit
+          targetNode: 0d6fd1f3-5242-4e1a-865c-e09537c6b3cb
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: update
+          targetNode: 0d6fd1f3-5242-4e1a-865c-e09537c6b3cb
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: show
+          targetNode: 0473e436-2f4d-4850-8865-143f7e703baa
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: listAccepted
+          targetNode: fc8e2fa7-71dd-4c46-b911-32ee5c2a8740
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: showAccepted
+          targetNode: 4a94109f-e4e0-4e6d-83f4-5d9cfffccd7e
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: review
+          targetNode: 542d7cf8-12db-4e7f-bec5-aa0ab1191e18
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: voting
+          targetNode: c3b88133-eae9-4f36-bc36-4e7428b0f5bb
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: updateVote
+          targetNode: c3b88133-eae9-4f36-bc36-4e7428b0f5bb
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: votingResults
+          targetNode: 3ba0fd73-b4f3-4f1c-a648-18e79f5ba4b1
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: acceptPapers
+          targetNode: 3ba0fd73-b4f3-4f1c-a648-18e79f5ba4b1
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: export
+          targetNode: 3ba0fd73-b4f3-4f1c-a648-18e79f5ba4b1
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          targetNode: 0d6fd1f3-5242-4e1a-865c-e09537c6b3cb

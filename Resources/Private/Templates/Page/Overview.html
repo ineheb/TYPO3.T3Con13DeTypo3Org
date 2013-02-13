@@ -1,0 +1,196 @@
+{namespace typo3=TYPO3\Neos\ViewHelpers}
+{namespace c=TYPO3\Conference\ViewHelpers}
+{namespace typoScript=TYPO3\TypoScript\ViewHelpers}
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<f:base/>
+
+	<meta name="generator" content="FLOW3" />
+	<title>Start - T3CON12</title>
+
+<f:section name="stylesheets">
+	<link rel="stylesheet" href="../../../Public/Stylesheets/reset.css" media="all" />
+	<link rel="stylesheet" href="../../../Public/Stylesheets/grid.css" media="all" />
+	<link rel="stylesheet" href="../../../Public/Stylesheets/main.css" media="all" />
+	<link rel="stylesheet" href="../../../Public/Stylesheets/print.css" media="print" />
+	<link rel="stylesheet" href="../../../Public/Stylesheets/jquery-ui-1.8.13.css" media="all" />
+	<link rel="stylesheet" href="../../../Public/Stylesheets/colorbox.css" media="all" />
+
+	<!--[if IE]><link rel="stylesheet" href="../../../Public/Stylesheets/ie.css" media="all" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" href="../../../Public/Stylesheets/ie7.css" media="all" /><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" href="../../../Public/Stylesheets/ie8.css" media="all" /><![endif]-->
+
+	<link rel="shortcut icon" href="../../../Public/Images/favicon.ico" />
+</f:section>
+<f:section name="javascripts">
+	<script src="../../../Public/JavaScript/css_browser_selector.js"></script>
+	<script src="../../../Public/JavaScript/jquery-1.6.4.min.js"></script>
+	<script src="../../../Public/JavaScript/jquery-ui-1.8.16.min.js"></script>
+	<script src="../../../Public/JavaScript/jquery.tools.js"></script>
+	<script src="../../../Public/JavaScript/jquery.colorbox-min.js"></script>
+	<script src="../../../Public/JavaScript/jquery.jqEasyCharCounter.min.js"></script>
+	<script src="../../../Public/JavaScript/jquery.metadata.js"></script>
+	<script src="../../../Public/JavaScript/jquery.tablesorter.min.js"></script>
+	<script src="../../../Public/JavaScript/main.js"></script>
+</f:section>
+</head>
+
+<body class="js-off page-landing" id="typo3org">
+<f:section name="body">
+	<div class="p t3-reloadable-content home-page-template" id="page"><!-- ### Page ### 208-->
+
+		<!-- ### content ### -->
+		<div class="c" id="content">
+
+			<!-- ### section ### -->
+			<div class="s d" id="section">
+
+				<c:flashMessages class="b-message" />
+				<typoScript:renderTypoScript path="sections/teaser" />
+				<div class="g">
+					<div class="g-6"><typoScript:renderTypoScript path="sections/main" /></div>
+					<div class="g-3"><typoScript:renderTypoScript path="sections/sidebar" /></div>
+				</div>
+			</div>
+			<!-- ^^^ section ^^^ -->
+
+		</div>
+		<!-- ^^^ content ^^^ -->
+
+
+		<!-- ### header ### -->
+		<div class="h" id="header">
+			<typo3:link.node node="/sites/t3con13detypo3org/overview" id="logo"><img src="{f:uri.resource(path: 'Images/typo3-logo.png', package:'TYPO3.T3Con13DeTypo3Org')}" alt="TYPO3 Conference 2013 - Stuttgart" /></typo3:link.node>
+			<span class="con-data"><strong>04 October - 06 October 2013</strong><br />FILDERHALLE near Stuttgart<br />Stuttgart, Germany</span>
+			<div class="h-bar">
+				<ul class="h-bar-nav">
+					<li>
+						<a href="#"><span class="b-drop-h">
+							<span id="login-status">
+								<f:security.ifAuthenticated>
+									<f:then>
+										Logout
+									</f:then>
+									<f:else>
+										Login
+									</f:else>
+								</f:security.ifAuthenticated>
+							</span><span class="i-arr-down-or ico"></span><span class="b-drop-h-l"></span><span class="b-drop-h-r"></span></span>
+						</a>
+
+						<div class="b-drop-body b-drop-r t3oajaxlogin-flyout-container">
+							<div id="ajaxlogin">
+								<div class="tx-ajaxlogin-widget">
+									<f:security.ifAuthenticated>
+										<f:then>
+											<p>You are currently logged in.</p>
+
+											<p>
+												<typo3:link.node node="/sites/t3con13detypo3org/logout" class="bu bu-mini">
+													Logout
+												</typo3:link.node>
+											</p>
+										</f:then>
+										<f:else>
+											<p><a href="https://typo3.org/my-account/sso/t3con12de/">Login with your <strong>typo3.org</strong>
+												Account.</a><br/>You will be redirected back here after login.</p>
+
+											<p class="b-form-row">
+
+											<div class="login-action-links">
+												<a href="https://typo3.org/register/">Sign Up</a>
+											</div>
+											</p>
+										</f:else>
+									</f:security.ifAuthenticated>
+								</div>
+							</div>
+							<div class="b-drop-body-l"><div></div></div><div class="b-drop-body-b"><div></div></div><div class="b-drop-body-r"><div></div></div>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<span class="b-drop-h">
+								t3con12de.typo3.org<span class="i-arr-down-or ico"></span>
+								<!-- shadow elements -->
+								<span class="b-drop-h-l"></span><span class="b-drop-h-r"></span>
+							</span>
+						</a>
+
+						<div class="b-drop-body b-drop-r">
+							<ul class="b-drop-nav">
+								<li><a href="http://typo3.org">typo3.org</a></li>
+								<li><a href="http://association.typo3.org">TYPO3 Association</a></li>
+								<li><a href="http://certification.typo3.org">Certification</a></li>
+								<li><a href="http://flow3.typo3.org">FLOW3</a></li>
+								<li><a href="http://forge.typo3.org">Forge (Development Platform)</a></li>
+								<li><a href="http://buzz.typo3.org">Buzz (TYPO3 Blogs)</a></li>
+								<li><a href="http://wiki.typo3.org">TYPO3 Wiki</a></li>
+								<li><a href="http://lists.typo3.org/cgi-bin/mailman/listinfo">Mailing lists</a></li>
+							</ul>
+							<!-- shadow elements -->
+							<div class="b-drop-body-l"><div></div><div class="b-drop-r-tl"></div></div>
+							<div class="b-drop-body-b"><div></div></div>
+							<div class="b-drop-body-r"></div>
+						</div><!-- b-drop-body -->
+					</li>
+				</ul>
+			</div><!-- h-bar -->
+			<typoScript:renderTypoScript path="parts/mainMenu" />
+		</div>
+		<!-- ^^^ header ^^^ -->
+
+
+	</div><!-- ^^^ Page ^^^ -->
+
+	<!-- ### footer ### -->
+	<div class="f" id="footer">
+		<div class="f-body">
+			<p>Powered by TYPO3 Phoenix alpha &amp; FLOW3.</p>
+
+			<div class="f-links g">
+				<div class="g-3">
+					<div class="gc d">
+						<div class="b-foot-nav">
+							<ul>
+								<li> <typo3:link.node node="/sites/t3con13detypo3org/contact">Contact</typo3:link.node></li>
+								<li> <typo3:link.node node="/sites/t3con13detypo3org/contact/legal-notice">Legal information</typo3:link.node></li>
+							</ul>
+						</div><!-- b-foot-nav -->
+					</div><!-- gc -->
+				</div><!-- g-6 -->
+				<div class="g-6">
+					<div class="g">
+						<div class="sponsor-list">
+							<p>
+								Platinum Sponsors: <br/>
+
+							<div class="g">
+								<a href="http://www.aoemedia.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/aoe.png" height="54" width="170" alt="AOE Media"/></a>
+								<a href="http://www.mittwald.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/mittwald.png" height="23" width="170" alt="Mittwald CM Service"/></a>
+							</div>
+							<div class="g">
+								<a href="http://www.dkd.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/dkd.png" height="106" width="170" alt="dkd"/></a>
+								<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
+							</div>
+							</p>
+						</div>
+						<div class="organizers">
+							<p>
+								Organizers:<br />
+								<f:render partial="Organizers"/>
+							</p>
+						</div>
+					</div><!-- gc -->
+				</div><!-- g-5 -->
+			</div><!-- f-links -->
+
+		</div><!-- f-body -->
+		<f:render partial="PiwikTracking" arguments="{siteId: piwikSiteId}" />
+	</div>
+	<!-- ^^^ footer ^^^ -->
+</f:section>
+</body>
+</html>

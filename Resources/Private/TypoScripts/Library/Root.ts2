@@ -1,0 +1,69 @@
+/**
+ * Plugin Typoscript for MailForm plugin
+ */
+include: resource://TYPO3.MailForm/Private/TypoScripts/PluginImplementation.ts2
+
+/**
+ * Plugin Typoscript for Conference plugin
+ */
+include: resource://TYPO3.Conference/Private/TypoScripts/PluginImplementation.ts2
+
+namespace: TypoScript=TYPO3.TypoScript
+
+page = Page
+page.body.templatePath = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/Page/Default.html'
+page.body.sectionName = 'body'
+
+page.headerData {
+	stylesheets = Template
+	stylesheets {
+	  templatePath = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/Page/Default.html'
+	  sectionName = 'stylesheets'
+	}
+
+   javascripts = Template
+	javascripts {
+		templatePath = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/Page/Default.html'
+		sectionName = 'javascripts'
+	}
+}
+
+
+# todo
+#page.head.title = BreadcrumbMenu
+#page.head.title {
+#	maximumLevels = 2
+#	template.source = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/TypoScriptObjects/TitleMenu.html'
+#}
+# Other parts of the page:
+page.body.parts {
+	mainMenu = Menu
+	mainMenu {
+		entryLevel = 1
+		templatePath = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/TypoScriptObjects/MainMenu.html'
+		maximumLevels = 2
+	}
+
+	subMenu = Menu
+	subMenu {
+		entryLevel = 2
+		templatePath = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/TypoScriptObjects/SubMenu.html'
+		maximumLevels = 3
+	}
+
+	breadcrumb = Breadcrumb
+	breadcrumb {
+		templatePath = 'resource://TYPO3.T3Con13DeTypo3Org/Private/Templates/TypoScriptObjects/BreadcrumbMenu.html'
+	}
+}
+
+page.body.sections.teaser = Section
+page.body.sections.teaser.nodePath = 'teaser'
+
+page.body.sections.main = Section
+page.body.sections.main.nodePath = 'main'
+
+page.body.sections.sidebar = Section
+page.body.sections.sidebar.nodePath = 'sidebar'
+
+page.body.piwikSiteId = 99

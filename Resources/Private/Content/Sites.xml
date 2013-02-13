@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<site nodeName="t3con13detypo3org">
+		<properties>
+			<name>T3CON13 Stuttgart Site</name>
+			<state>1</state>
+			<siteResourcesPackageKey>TYPO3.T3Con13DeTypo3Org</siteResourcesPackageKey>
+		</properties>
+		<node identifier="fd56a554-7c19-4877-98f9-33aaf110c7e3" type="TYPO3.Neos.ContentTypes:Page" nodeName="overview" locale="en">
+			<properties>
+				<title>Overview</title>
+			</properties>
+			<node identifier="36f4ac94-bc1c-4274-9c2e-b8e4df86c2e7" type="TYPO3.Neos.ContentTypes:Section" nodeName="teaser" locale="en">
+				<node identifier="e5bd07d0-c2b7-4ff3-9d96-5e0a0e25708f" type="TYPO3.Neos.ContentTypes:Html" nodeName="topslider" locale="en">
+					<properties>
+						<source><![CDATA[
+								<div class="slider" id="top-slider">
+								<div class="slider-content">
+								<ul class="slides">
+
+								<li class="slide">
+								<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Slider/T3CON13-Stuttgart.png"
+								width="982" height="282" alt="Stuttgart City panorama" class="slide-img" />
+								<div class="d slide-content">
+								<div class="hgroup">
+								<h2>T3CON13 - It's hot don't miss it!</h2>
+								</div>
+								<p>T3CON13 is your chance to meet people from the TYPO3 & TYPO3 Flow community and have a glance at a first version of TYPO3 Phoenix.</p>
+								<p><a class="bu" href="http://shop.typo3.org/T3CON13/typo3-conference-2013-tickets/ref/shop/" target="_blank">Buy tickets!</a></p>
+								</div>
+								</li>
+
+								<li class="slide">
+								<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Slider/Conference-Program.jpg"
+								width="982" height="282" alt="T3CON13 - It's hot don't miss it" class="slide-img" />
+								<div class="d slide-content">
+								<div class="hgroup">
+								<h2>Conference Program</h2>
+								<h3>Stunning Talks and Tutorials</h3>
+								</div>
+								<p>The conference program is now available.</p>
+								<p><a class="bu" href="/sessions.html" target="_blank">Details</a></p>
+								</div>
+								</li>
+
+								<li class="slide">
+								<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Slider/Well-known-Speakers.jpg"
+								width="982" height="282" alt="Audience interaction during T3CON10" class="slide-img" />
+								<div class="d slide-content">
+								<div class="hgroup">
+								<h2>Well known Speakers</h2>
+								</div>
+								<p>The conference will feature numerous speakers from the TYPO3 & TYPO3 Flow community, the TYPO3 Phoenix project and the Web in general.</p>
+								</div>
+								</li>
+
+								<li class="slide">
+								<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Slider/stuttgart.jpg"
+								width="982" height="282" alt="T3CON features well-known speakers" class="slide-img" />
+								<div class="d slide-content">
+								<div class="hgroup">
+								<h2>Stuttgart City, Germany - A great place to be</h2>
+								</div>
+								<p>Stuttgart City is a great place to be and will host T3CON13.</p>
+								<p><a class="bu" href="http://stuttgart.de/en/" target="_blank">Learn more about Stuttgart</a></p>
+								</div>
+								</li>
+
+								</ul>
+
+								</div><!-- slider-content -->
+
+								<ul class="slider-nav">
+									<li>
+										<div class="d">
+											<h6>T3CON13 Stuttgart</h6>
+											<p>Learn more about TYPO3 & TYPO3 Flow</p>
+										</div>
+									</li>
+									<li class="active">
+										<div class="d">
+											<h6>Conference Program</h6>
+											<p>Stunning Talks and Tutorials</p>
+										</div>
+									</li>
+									<li>
+										<div class="d">
+											<h6>Well known Speakers</h6>
+											<p>From TYPO3, TYPO3 Flow and the Web</p>
+										</div>
+									</li>
+									<li>
+										<div class="d">
+											<h6>Stuttgart City</h6>
+											<p>A great place to be</p>
+										</div>
+									</li>
+								</ul>
+
+								</div><!-- top-slider -->
+
+							]]></source>
+					</properties>
+				</node>
+			</node>
+			<node identifier="dc08a634-b8b3-424f-bb5f-ef8448754455" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="919f2846-c4a3-4b66-87d2-937689ad64d7" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+					<properties>
+						<headline>T3CON13 - Stuttgart</headline>
+						<text><![CDATA[
+							<p>The TYPO3 Association is proud to invite you to join us for the 8th European TYPO3 &amp; TYPO3 Flow Conference T3CON13 in Stuttgart City in Germany.</p>
+							<p>The conference will take place from Thursday, 04 October through Saturday, 06 October 2013.<br /><a href="http://shop.typo3.org/T3CON13/typo3-conference-2013-tickets/ref/shop/" target="_blank">Buy tickets now</a></p>
+
+							<p>This will be a great opportunity to learn more about the powerful Enterprise CMS TYPO3, the web application platform TYPO3 Flow and have a glance at a first version of TYPO3 Phoenix. Of course you will be able to connect with other members of the TYPO3 community including developers designers, copywriters, clients, users and more. Several internationally-known members of the TYPO3 community will be attending and presenting.</p>
+
+							<p>The conference will be held at the <a href="http://www.filderhalle.de/" target="_blank">Filderhalle in Stuttgart City</a>. Special prices on room rates are available if you mention &quot;T3CON&quot; while making your reservation. See the <a href="/location/accommodation.html">Staying there</a> page for details.</p>
+									]]></text>
+					</properties>
+				</node>
+				<node identifier="32ac2cbd-ec0a-4b96-a281-a37ad54d3565" type="TYPO3.Neos.ContentTypes:Html" nodeName="html1" locale="en">
+					<properties>
+						<source><![CDATA[
+								<iframe width="640" height="480" src="http://www.youtube.com/embed/ew3EvFA8Px4" frameborder="0" allowfullscreen></iframe>
+					]]></source>
+					</properties>
+				</node>
+				<node identifier="20740541-c349-4f35-bfc3-e98583e40e64" type="TYPO3.Neos.ContentTypes:Text" nodeName="text2" locale="en">
+					<properties>
+						<text><![CDATA[
+
+							<h3>New this year</h3>
+							<p>In addition to the TYPO3 &amp; TYPO3 Flow sessions, this year we will also be inviting speakers to present on broad and important subject areas such as: accessibility, mobile interfaces, communication challenges, writing for the web, success stories from customers and the use of social networks.</p>
+							<p>Once again the TYPO3 Conference will maintain its international appeal with people attending from a dozen different countries.</p>
+							<h3 id="wi-fi-dont-forget-wi-fi">Wi-Fi, don’t forget Wi-Fi</h3>
+							<p>Excellent Wi-Fi will be available for the duration of the conference.</p>
+							<h3 id="social-networks">Social Networks</h3>
+							<p>Please use the <strong>#T3CON13DE</strong> tag when you need it!</p>
+							<h3 id="conference-activities">Conference Activities</h3>
+							<ul>
+							<li>Presentations on a variety of TYPO3 &amp; TYPO3 Flow topics as well as topics related to website messaging, communication, and design</li>
+							<li>Half-day tutorials for in-depth learning of TYPO3 &amp; TYPO3 Flow techniques</li>
+							<li>Special social event (free to attendees of the conference; individual tickets available for others)</li>
+							<li>TYPO3 Certification Exam.</li>
+							<li>Other activities, including round tables, “5 Minutes of Fame” talks and troubleshooting sessions where you can get help for your site from experts</li>
+							</ul>
+									]]></text>
+					</properties>
+				</node>
+			</node>
+			<node identifier="6244bee6-aee0-491e-b03e-96e50ada1620" type="TYPO3.Neos.ContentTypes:Section" nodeName="sidebar" locale="en">
+				<node identifier="96ea3b1d-a4c1-461c-9bfe-b924674c87d8" type="TYPO3.Neos.ContentTypes:Html" nodeName="datestowatch" locale="en">
+					<properties>
+						<source><![CDATA[
+								<div class="gc">
+									<h4>Dates to watch</h4>
+									<div class="general-box">
+										<div class="d">
+											<div class="b-event-item">
+												<div class="b-event-item-date b-event-item-date-big">
+													<span class="m">July 15th</span> <span class="y">2013</span>
+												</div><!-- b-event-item-date -->
+												<div class="b-event-item-text">
+													<h6>Start early bird</h6>
+												</div><!-- b-event-item-text -->
+											</div><!-- b-event-item -->
+											<div class="b-event-item">
+												<div class="b-event-item-date b-event-item-date-big">
+													<span class="m">August 18th</span> <span class="y">2013</span>
+												</div><!-- b-event-item-date -->
+												<div class="b-event-item-text">
+													<h6>End early bird</h6>
+												</div><!-- b-event-item-text -->
+											</div><!-- b-event-item -->
+											<div class="b-event-item">
+												<div class="b-event-item-date b-event-item-date-big">
+													<span class="m">September 21st</span> <span class="y">2013</span>
+												</div><!-- b-event-item-date -->
+												<div class="b-event-item-text">
+													<h6>End regular registration</h6>
+												</div><!-- b-event-item-text -->
+											</div><!-- b-event-item -->
+											<div class="b-event-item">
+												<div class="b-event-item-date b-event-item-date-big">
+													<span class="m">October 04th</span> <span class="y">2013</span>
+												</div><!-- b-event-item-date -->
+												<div class="b-event-item-text">
+													<h6>End late registration</h6>
+												</div><!-- b-event-item-text -->
+											</div><!-- b-event-item -->
+										</div>
+									</div><!-- general-box -->
+								</div><!-- gc -->
+							]]></source>
+					</properties>
+				</node>
+				<node identifier="3e9119d1-38cc-4254-82ad-b634b3519fa4" type="TYPO3.Conference:Plugin" nodeName="featuredtalks" locale="en" hidden="true">
+					<properties>
+						<controller>Conference\Paper</controller>
+						<action>featured</action>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="539a66cf-a09f-4950-9fd6-e0bc427c8a9b" type="TYPO3.Neos.ContentTypes:Page" nodeName="location" locale="en">
+			<properties>
+				<title>Location</title>
+			</properties>
+			<node identifier="26cc6353-cd71-469a-8848-ef72fc17e404" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="b1b04e6a-bbee-47fe-b30d-7f1dcf1cae8d" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+					<properties>
+						<headline>Location</headline>
+						<text><![CDATA[
+						<p>The address is:</p>
+						<p>
+						Kongress- und Tagungszentrum<br />
+						FILDERHALLE Leinfelden-Echterdingen GmbH<br />
+						Bahnhofstraße 61<br />
+						70771 Leinfelden-Echterdingen
+						</p>
+						<p>
+						Phone +49 711 7585750<br />
+						Fax: +49 711 758575339<br />
+						Email: <a href="mailto:info@filderhalle.de">info@filderhalle.de</a><br />
+						Web: <a href="http://www.filderhalle.de" target="_blank">http://www.filderhalle.de</a>
+						</p>
+							]]></text>
+					</properties>
+				</node>
+			</node>
+			<node identifier="0f4414e6-a251-402d-9752-e026472c3488" type="TYPO3.Neos.ContentTypes:Page" nodeName="getting-there" locale="en">
+				<properties>
+					<title>Getting there</title>
+				</properties>
+				<node identifier="0d41c37a-a7a6-42a2-8ae2-738a884d4d9b" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="a91c6d16-f9be-446d-bd79-d3362adfdca7" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+						<properties>
+							<headline>Getting there</headline>
+							<text><![CDATA[
+							<p>The only way we cannot be reached is by water…</p>
+<p>
+Kongress- und Tagungszentrum<br />
+FILDERHALLE Leinfelden-Echterdingen GmbH<br />
+Bahnhofstraße 61<br />
+70771 Leinfelden-Echterdingen
+</p>
+<p>
+Phone +49 711 7585750<br />
+Fax: +49 711 758575339<br />
+Email: <a href="mailto:info@filderhalle.de">info@filderhalle.de</a><br />
+Web: <a href="http://www.filderhalle.de" target="_blank">http://www.filderhalle.de</a>
+</p>
+								]]></text>
+						</properties>
+					</node>
+					<node identifier="099eb46b-3215-4c37-b327-2fea514e6050" type="TYPO3.Neos.ContentTypes:Text" nodeName="text2" locale="en">
+						<properties>
+							<text><![CDATA[
+								<h2>Directions by car</h2>
+								<p>From Stuttgart via the B27 until the exit LE-Leinfelden. From here keep following the signs for FILDERHALLE in the direction of Leinfelden.</p>
+								<p>From Tübingen via the B27 until the exit LE-Echterdingen (FILDERHALLE). From here keep following the signs for FILDERHALLE in the direction of Leinfelden.</p>
+								<p>Coming from Munich take the A8 until the exit 52a/52b, junction Leinfelden-Echterdingen.</p>
+								<p>Coming from Karlsruhe take the A8 until exit 52, junction Leinfelden-Echterdingen.</p>
+								<p><a href="http://maps.google.de/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=filderhalle&amp;sll=51.151786,10.415039&amp;sspn=14.408862,39.506836&amp;ie=UTF8&amp;hq=filderhalle&amp;hnear=&amp;ll=48.699813,9.141204&amp;spn=0.007393,0.01929&amp;z=16">Google Maps</a></p>
+								]]></text>
+						</properties>
+					</node>
+					<node identifier="22f0ddc5-2894-4a1c-9894-a2f908c045e3" type="TYPO3.Neos.ContentTypes:Text" nodeName="text3" locale="en">
+						<properties>
+							<text><![CDATA[
+								<h2 id="directions-by-train">Directions by train</h2>
+								<h3 id="directions-from-the-main-railway-station-in-stuttgart">Directions from the main railway station in Stuttgart</h3>
+								<p>Take the municipal railway (S-Bahn) (S2 in the direction of the airport or the S3 in the direction of Filderstadt) until the Leinfelden stop. Total journey time is 22 minutes. The municipal railway station is only 200 meters away from FILDERHALLE.</p>
+								<p>Take the underground railway (U-Bahn) (U5) in the direction of Leinfelden until the terminal Leinfelden. Journey time is 25 minutes. The municipal railway station is only 200 meters away from FILDERHALLE.</p>
+								]]></text>
+						</properties>
+					</node>
+					<node identifier="50f38ed5-c0fe-4b12-8613-eaf7dfb38304" type="TYPO3.Neos.ContentTypes:Text" nodeName="text4" locale="en">
+						<properties>
+							<headline></headline>
+							<text><![CDATA[
+									<h2 id="directions-by-plane">Directions by plane</h2>
+									<h3 id="directions-from-stuttgart-airport">Directions from Stuttgart Airport</h3>
+									<p>Take the municipal railway (S-Bahn) (S2 in the direction of Schorndorf or the S3 in the direction of Backnang) until the Leinfelden stop. Journey time is 6 minutes. The municipal railway station is only 200 meters away from FILDERHALLE.</p>
+									<p>Information on local transport timetables can be obtained from the <a href="http://www.vvs.de/" target="_blank">Verkehrs-und Tarifverbund Stuttgart</a> and in the case of long-distance journeys by rail from <a href="http://www.bahn.de/i/view/USA/en/index.shtml" target="_blank">Deutschen Bahn AG</a> .</p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="70ba2acd-dddd-4002-b724-6715a027344b" type="TYPO3.Neos.ContentTypes:Page" nodeName="accommodation" locale="en">
+				<properties>
+					<title>Staying there</title>
+				</properties>
+				<node identifier="00dcf6bc-921a-40b9-9abf-7a304252c9ad" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="c6ee04f5-547b-46d5-aedd-57f46b2e64c5" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+						<properties>
+							<headline>Hotel Accommodation</headline>
+							<text><![CDATA[
+								<p><strong>Special prices on room rates are available if you mention “T3CON” while making your reservation.</strong></p>
+								<p>Hotel am Park <br />Lessingstr. 4–6 <br />70771 Leinfelden-Echterdingen <br />Tel: +49 711 903100 <br />Fax: +49 711 9031099 <br />www.hotelampark-leinfelden.de <br /> <br />Rates: <br />Single room from 85.00€ <br />Double room from 110.00€</p>
+								<p>Hotel Drei Morgen <br />Bahnhofstr. 39 <br />70771 Leinfelden-Echterdingen <br />Tel: 0711/160560 <br />Fax: 0711/1605646 <br />www.hotel-drei-morgen.de <br /> <br />Rates:<br />Single room from 68.00€<br />Double room from 90.00€</p>
+								<p>Best Western Plazahotel Stuttgart-Filderstadt (ehm. Ascot Hotel) <br />Karl-Benz-Strasse 25<br />70794 Filderstadt<br />Tel. +49 (0) 711/ 70 90-0<br />Fax +49 (0) 711/ 70 90-100<br />eMail: <a href="mailto:filderstadt@plazahotels.de">filderstadt@plazahotels.de</a> <br /> <br />Rates:<br />Single room from 68.00€</p>
+								<p><a href="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/HotelList_T3CON13DE.pdf">More Hotels</a></p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="c2cf4889-2860-41dc-9099-454108a80932" type="TYPO3.Neos.ContentTypes:Page" nodeName="speakers" locale="en" hidden="true">
+			<properties>
+				<title>Speakers</title>
+			</properties>
+			<node identifier="b7b19db7-1755-48bf-b5c3-5824e554cec1" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="438ae24c-8876-401b-bec4-0b3c5f0c27e9" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+					<properties>
+						<headline>Foo</headline>
+						<text><![CDATA[<p>foo.</p>
+							]]></text>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="fc8e2fa7-71dd-4c46-b911-32ee5c2a8740" type="TYPO3.Neos.ContentTypes:Page" nodeName="sessions" locale="en">
+			<properties>
+				<title>Sessions</title>
+			</properties>
+			<node identifier="190145ef-580f-4a11-b421-851d66f1f496" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="1792cc7c-d839-4e2d-a6ab-0eb192afd26a" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+					<properties>
+						<headline>Sessions</headline>
+						<text><![CDATA[<p><a href="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/schedule-T3CON13-stuttgart.pdf">The final schedule is available for download now!</a></p>
+						]]></text>
+					</properties>
+				</node>
+				<node identifier="9f928090-0bb9-11e2-892e-0800200c9a66" type="TYPO3.Neos.ContentTypes:Text" nodeName="text-introday" locale="en">
+					<properties>
+						<headline>Introduction Day</headline>
+						<text><![CDATA[<p>This years edition of the popular TYPO3 Introduction Day takes place on Thursday the 04th of October in the Room "Studio II".</p>
+						]]></text>
+					</properties>
+				</node>
+				<node identifier="72793ea0-0bb9-11e2-892e-0800200c9a66" type="TYPO3.Neos.ContentTypes:Text" nodeName="text2" locale="en">
+					<properties>
+						<headline />
+						<text><![CDATA[<h3>Accepted Papers</h3>]]></text>
+					</properties>
+				</node>
+				<node identifier="e112b2db-bfca-47fc-9102-10559a0c7d38" type="TYPO3.Conference:Plugin" nodeName="listAccepted" locale="en">
+					<properties>
+						<controller>Conference\Paper</controller>
+						<action>listAccepted</action>
+					</properties>
+				</node>
+			</node>
+			<node identifier="4a94109f-e4e0-4e6d-83f4-5d9cfffccd7e" type="TYPO3.Neos.ContentTypes:Page" nodeName="acceptedpapers" locale="en" hiddenInIndex="true">
+				<properties>
+					<title>Accepted Paper</title>
+				</properties>
+				<node identifier="d471207d-3c22-4d63-aa7b-f76418dde425" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="b5aa1d8e-d876-4ee2-a430-cabbd435dce9" type="TYPO3.Conference:Plugin" nodeName="showAccepted" locale="en">
+						<properties>
+							<controller>Conference\Paper</controller>
+							<action>showAccepted</action>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="fe4a3851-2f4a-49a7-906e-1d48b8c15a0e" type="TYPO3.Neos.ContentTypes:Page" nodeName="videos" locale="en">
+				<properties>
+					<title>Conference Videos</title>
+				</properties>
+				<node identifier="9ccf8c50-b3fc-4424-be1f-43b244ccb559" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="89d149f9-ee49-47f7-9cdd-8c96af1d05e4" type="TYPO3.Neos.ContentTypes:Text" nodeName="text2" locale="en">
+						<properties>
+							<headline>Videos of past TYPO3 conferences</headline>
+							<text><![CDATA[
+									<p>This years conference videos are available on <a href="http://www.youtube.com/playlist?list=PL-sDBIrOKGOZL-o37QnXFmqqYJ-yltSgl">Youtube</a>.
+									<p>The past years our video team was hard at work and captured the sessions for your viewing pleasure. Below is a glimpse of what our <a href="http://vimeo.com/channels/t3con" target="_blank">T3CON channel over at vimeo</a> has to offer.</p>
+									<p>Sessions which have been recorded between 2006 and 2010 are available for download <a href="http://t3con.mirror.speedpartner.de/" target="_blank">on this site</a> .</p>
+									]]></text>
+						</properties>
+					</node>
+					<node identifier="aea05ec4-a151-42c5-a3e5-66f960466741" type="TYPO3.Neos.ContentTypes:Html" nodeName="html1" locale="en">
+						<properties>
+							<source><![CDATA[
+									<div class="vimeoBadge">
+<iframe width="710" height="399" src="http://www.youtube.com/embed/videoseries?list=PL-sDBIrOKGOZL-o37QnXFmqqYJ-yltSgl&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
+									</div>
+								]]></source>
+						</properties>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3.Neos.ContentTypes:Page" nodeName="sponsors" locale="">
+			<properties>
+				<title>Sponsors</title>
+			</properties>
+			<node identifier="332db998-97dc-4c59-ad4d-b820785de7f2" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+				<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+					<properties>
+						<headline>List of T3CON13 Sponsors</headline>
+						<text><![CDATA[
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>Platinum Sponsors</h3></th><th><h3>Gold Sponsors</h3></th><th><h3>Silver Sponsors</h3></th></tr>
+									<tr><th>10,000 € donation</th><th>7,500 € donation</th><th>5,000 € donation</th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="http://www.aoemedia.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/aoe.png" height="54" width="170" alt="AOE Media"/></a>
+											<a href="http://www.mittwald.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/mittwald.png" height="23" width="170" alt="Mittwald CM Service"/></a>
+											<a href="http://www.dkd.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/dkd.png" height="106" width="170" alt="dkd"/></a>
+											<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
+										</td>
+										<td>
+										<br />
+										<br />
+										</td>
+										<td>
+											<a href="http://www.digiparden.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/digiparden.png" height="60" width="170" alt="digiparden"/></a>
+											<a href="http://www.drcsystems.com/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/drc_systems.png" height="120" width="113" alt="DRC Systems"/></a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>Media Partner</h3></th><th><h3>Donations</h3></th><th><h3>Caps</h3></th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="http://www.t3n.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/t3n.png" height="88" width="170" alt="t3n - Open. Web. Business." /></a> <br />
+											<a href="http://www.heise.de/open/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/heiseopen.png" height="56" width="170" alt="heise - Open Source" /></a> <br />
+											<a href="http://www.ecommerce-lounge.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/ecommerce-lounge.png" height="44" width="170" alt="ecommerce-lounge.de" /></a>
+										</td>
+										<td>
+											<a href="http://www.netzpepper.de/">netzpepper</a> (200 €)<br />
+											<a href="http://www.ncn.de/">ncn KG</a> (100 €)<br />
+											<a href="http://www.expeer.de/">Expeer GmbH</a> (500 €)<br />
+											<a href="http://www.web-essentials.asia/">Web Essentials</a> (100 €)<br />
+											<a href="http://www.meteos.de/">Meteos</a> (200 €)<br />
+										</td>
+										<td>
+											<a href="http://www.artif-orange.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/artiforange.png" height="24" width="170" alt="artif orange GmbH & Co. KG" /></a><br />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>T-Shirt Sponsors</h3></th><th><h3>Lanyards</h3></th><th><h3>Coffee break</h3></th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="http://www.typovision.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/typovision2.png" height="121" width="170" alt="typovision"/></a>
+											<a href="http://www.1drop.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/onedrop.png" height="90" width="170" alt="one drop solutions"/></a>
+										</td>
+										<td>
+											<a href="http://www.dkd.de/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/dkd.png" height="106" width="170" alt="dkd"/></a>
+										</td>
+										<td>
+											<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						]]></text>
+					</properties>
+				</node>
+			</node>
+			<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3.Neos.ContentTypes:Page" nodeName="contribute" locale="">
+				<properties>
+					<title>Contribute</title>
+				</properties>
+				<node identifier="34021530-ad3c-43ee-8552-66b952e2cf76" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+					<node identifier="c02d01b8-33e3-42bf-839f-66f1ed5e4386" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Contribute to make TYPO3 even better!</headline>
+							<text><![CDATA[<p>TYPO3 is open source software and therefore free to use and download. However,
+						having some money available for development, travel expenses, motivation and other needs helps
+						TYPO3 a lot.</p>
+
+						<h2>Become a TYPO3 Association member</h2>
+
+						<p>The <a href="http://association.typo3.org/">TYPO3 Association</a> backs the TYPO3 project in
+						many ways. To deliver financial support, it needs your help. <a href="http://association.typo3.org/membership-levels/">
+						Become a member to support the TYPO3 project!</a></p>
+
+						<h2>Individual support</h2>
+
+						<p>Your support as an individual is also greatly appreciated. Every single Euro helps!
+						Just donate any amount you see fit for your personal situation using the
+						<a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
+
+						<h2>Become a sponsor</h2>
+
+						<p>Contact the organisation team for sponsoring options. You can also directly
+						<a href="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsoring_T3CON13.pdf">download
+						the order form</a>
+						with all sponsoring choices and information about sponsoring..
+						]]></text>
+						</properties>
+					</node>
+				</node>
+				<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3.Neos.ContentTypes:Page" nodeName="become-a-sponsor" hiddenInIndex="true" locale="">
+					<properties>
+						<title>Become a sponsor</title>
+					</properties>
+					<node identifier="a98dbd8a-19ac-4ca9-8a62-e0d8279b50ae" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+						<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>Sponsoring T3CON13</headline>
+								<text><![CDATA[<p>There are many ways you can support the TYPO3 community’s largest conference,
+							and at the same time benefit your company.</p>
+
+							<h2>Advantages for your company</h2>
+							<ul>
+								<li>You will make your company visible at a gathering of top-class decision makers and
+									visionaries</li>
+								<li>Your company will be advertised in relation to the exclusive image of an innovative
+									conference</li>
+								<li>You’ll have the opportunity to present your corporation’s products and services in an
+									optimized environment</li>
+								<li>You can use T3CON13 as a platform for networking: Why not invite selected customers
+									and partners?</li>
+							</ul>
+							<p>There are various opportunities to integrate your company into the event and to get in
+							touch with your target group. Of course we will consider your individual ideas as well. </p>
+
+							<p>We are looking forward to welcome you as a partner or sponsor of the conference!</p>
+
+							<h2>The Target Group</h2>
+
+							<p>At T3CON13, entrepreneurs, managers, marketing decision makers, consultants, and
+							investors—the movers and shakers of the Internet—all come together to share ideas and
+							information. As a sponsor, you will reach a unique collection of opinion leaders, early
+							adopters, replicators, visionaries and trendsetters.</p>
+
+							<p>The participants of T3CON11 were</p>
+							<ul>
+								<li>Predominantly male</li>
+								<li>20-49 years old</li>
+								<li>Executive managers and decision makers</li>
+							</ul>
+
+							<p>The conference’s intimate atmosphere offers enough space for information exchange,
+							networking and the possibility to discuss topics and trends.</p>
+
+							<h2>Become a Sponsor Now!</h2>
+							<p><a href="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsoring_T3CON13.pdf" class="bu">
+							<strong>Options, prices and order form</strong></a>
+							<a href="mailto:sandra@typo3.org?subject=[T3CON13] I want to sponsor" class="bu">
+							<strong>Contact now for sponsoring</strong></a></p>
+							]]></text>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="521fbb09-48d8-4bef-8dcd-1f5d5e88bf07" type="TYPO3.Neos.ContentTypes:Page" nodeName="individual-support" hiddenInIndex="true" locale="">
+					<properties>
+						<title>Individual support</title>
+					</properties>
+					<node identifier="9f46d7e8-94f3-4188-a686-5486d42cd891" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+						<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>Individual support</headline>
+								<text><![CDATA[<p>If you want to support the TYPO3 conference as an individual, just do it!
+							Every single Euro is appreciated! Just donate any amount you see fit for your personal
+							situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
+
+							<p>If you have questions or concerns about donating, contact us!</p>
+							]]></text>
+							</properties>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node identifier="678a2190-ea65-4f95-99c2-1ac749e225f0" type="TYPO3.Neos.ContentTypes:Page" nodeName="mittwald" locale="" hidden="true">
+				<properties>
+					<title>Mittwald CM Service</title>
+				</properties>
+				<node identifier="8f9ed61b-6563-4c8e-ba94-25d1b066b0d7" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+					<node identifier="36631159-ef0f-4c4a-ac5c-360dec445234" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Mittwald CM Service</headline>
+							<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/mittwald.png" height="23" width="170" alt="Mittwald CM Service" class="intext right"/>
+								<p>Mittwald CM Service ist einer der führenden Dienstleister im Bereich Webhosting von Content Management
+								Systemen und E-Commerce-Lösungen. Flexible <a href="https://www.mittwald.de/webhosting/">Hosting-Tarife</a>
+								für TYPO3, Magento sowie zahlreiche weitere Open-Source-Anwendungen bieten Unternehmen und Agenturen
+								ein Höchstmaß an Leistung sowie innovative Hosting-Vorteile. Managed-Server Lösungen bieten durch
+								den Einsatz hochwertiger Serverhardware sowie spezieller Optimierungsmaßnahmen maximale TYPO3-Leistung
+								für besonders anspruchsvolle Projekte.</p>
+
+								<p>Die <a href="https://www.mittwald.de/schulungen/typo3-schulung/">TYPO3-Schulungen</a> von
+								Mittwald CM Service ermöglichen Redakteuren und Webentwicklern zudem einen
+								geeigneten Einstieg in die Arbeit mit TYPO3. Für die Community ist außerdem das deutschsprachige Forum
+								<a href="http://typo3.net">typo3.net</a>, dass von Mittwald CM Service gepflegt und betrieben wird, eine informative Anlaufstelle
+								geworden. </p>
+
+								<h2>Mittwald im Überblick</h2>
+								<ul>
+									<li>Jahrelange Erfahrung im Bereich Content Management Systeme und E-Commerce</li>
+									<li>Exzellenter Service und Support rund um die Uhr</li>
+									<li>Optimierte Hostinglösungen für den Einsatz von über 20 Webanwendugen z. B. TYPO3, Magento, Joomla,
+										Contao, WordPress, webEdition, Drupal, OXID, etc.</li>
+									<li>Schulungen für TYPO3, Magento, Joomla, HTML, CSS und PHP</li>
+									<li>Pflege von <a href="http://www.mittwald.de/typo3-dokumentation/">Community-Projekten</a>: TYPO3-Forum, kostenlose TYPO3-, Magento- und Joomla-Broschüren,
+										Dokumentationen zum freien Download auf der Webseite, Sponsoring von Events wie der T3CON und
+										Meet Magento.</li>
+								</ul>
+
+								<p>Mehr Informationen zu den Leistungen von Mittwald CM Service finden Sie unter <a href="https://www.mittwald.de/">www.mittwald.de</a></p>
+
+								<h2>Kontakt</h2>
+
+								<p>Mittwald CM Service GmbH & Co. KG <br />
+									Königsberger Straße 6 <br />
+									32339 Espelkamp<br /><br />
+									Telefon: 0800/440-3000 <br />
+									Kostenlos erreichbar aus dem deutschen Festnetz, abweichende Kosten aus dem Mobilfunk von bis zu 42 ct/min möglich.<br /><br />
+									Telefon: +49-5772-293-100 <br />
+									Telefax: +49-5772-293-333<br />
+									E-Mail: <a href="mailto:support@mittwald.de">support@mittwald.de</a><br />
+								</p>
+
+								<h2>Mittwald CM Service</h2>
+
+								<p>Mittwald CM Service is a leading provider in webhosting of Content Management Systems and E-Commerce
+								solutions. Flexible hosting rates for TYPO3, Magento and numerous other open source applications
+								offer companies and agencies the highest level of performance and innovative hosting benefits.</p>
+
+								<h2>Contact</h2>
+
+								<p>Phone: +49-5772-293-100<br />
+									E-Mail: <a href="mailto:support@mittwald.de">support@mittwald.de</a><br />
+								</p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="93b6edf5-f1e6-43e5-b41f-8f4e98eee206" type="TYPO3.Neos.ContentTypes:Page" nodeName="dkd" locale="">
+				<properties>
+					<title>dkd Internet Service GmbH</title>
+				</properties>
+				<node identifier="1b38cdb7-a69c-40d5-be21-14d6caa82da0" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+					<node identifier="07256e4b-132e-4949-894f-74e58212fee8" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>dkd Internet Service GmbH</headline>
+							<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/dkd.png" width="170" height="106" border="0" alt="dkd Internet Service GmbH" class="intext right" />
+
+								<p><a href="/sponsors/dkd.html#dkdgermanversion" title="dkd Internet Service GmbH auf deutsch">Die deutsche Version finden Sie weiter unten auf dieser Seite.</a></p>
+
+								<p><strong>dkd Internet Service GmbH</strong> is an owner-managed Full Service Internet Agency
+									located in Frankfurt, Germany. We are specialised in <strong>Development</strong>,
+									<strong>Communications</strong> and <strong>Design</strong> and live and love the ›Open Source‹
+									idea. Since our foundation in 1998 we have evolved to an exceedingly successful and sought-after
+									TYPO3 agency. We have demonstrated our expert knowledge in more than 350 projects working for
+									over 100 clients.</p>
+
+								<h2>Plan. Build. Run.</h2>
+								<p>We think of ourselves not only as <strong>TYPO3</strong> professionals. Our young team consisting
+									of 42 experts offers everything which can make a good website a perfect one: Starting with
+									conception, followed by development up to operations.</p>
+
+								<div class="g">
+									<div class="g-3">
+										<h3>We are dkd</h3>
+										<ul>
+											<li>42 salaried employees</li>
+											<li>12 Years of TYPO3 experience</li>
+											<li>More than 350 successful projects</li>
+											<li>Over 100 satisfied clients</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>We "are" TYPO3</h3>
+										<ul>
+											<li>12 certified TYPO3 Integrators</li>
+											<li>3 TYPO3 Core Developers</li>
+											<li>2 TYPO3 Extension Maintainers</li>
+											<li>1 TYPO3 Association Press Officer</li>
+											<li>1 TYPO3 Usability Team Leader</li>
+											<li>1 TYPO3 Design Team Member</li>
+											<li>1 TYPO3 book author</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>We are More</h3>
+										<ul>
+											<li>Multi disciplinary team consisting of developers, designers and marketing experts</li>
+											<li>Great teachers and great listeners (Broad training and support programmes)</li>
+											<li>›Enterprise Search‹-Experts<br />(<a href="http://www.typo3-solr.com/" title="Find out more about Apache Solr for TYPO3">Apache Solr for TYPO3</a>)</li>
+											<li>Developers with intuition (Sencha Touch)</li>
+										</ul>
+									</div>
+								</div>
+
+								<h2>Contact</h2>
+								<p><strong>dkd Internet Service GmbH</strong><br />
+								development // kommunikation // design<br />
+								Søren Schaffstein<br />
+								Kaiserstraße 73<br />
+								60329 Frankfurt<br />
+								Germany<br />
+								<br />
+								phone: +49 69 2475218-0<br />
+								fax: +49 69 2475218-99<br />
+								email: <a href="mailto" title="Send dkd an email">info@dkd.de</a><br />
+								twitter: <a href="http://twitter.com/dkd_de" title="Follow dkd on Twitter">http://twitter.com/dkd_de</a><br />
+								facebook: <a href="http://www.facebook.com/www.dkd.de" title="dkd on Facebook">http://www.facebook.com/www.dkd.de</a><br />
+								web: <a href="http://www.dkd.de" title="Visit dkd website">http://www.dkd.de</a></p>
+
+								<h1><a name="dkdgermanversion">dkd Internet Service GmbH - auf deutsch</a></h1>
+
+								<p>Die <strong>dkd Internet Service GmbH</strong> in Frankfurt am Main ist eine inhabergeführte
+									<strong>Full-Service-Internetagentur</strong> für <a href="http://www.dkd.de/de/agentur/dkd/development/"><strong>Development</strong></a>,
+									<a href="http://www.dkd.de/de/agentur/dkd/kommunikation/"><strong>Kommunikation</strong></a> und <a href="http://www.dkd.de/de/agentur/dkd/design/">
+										<strong>Design</strong></a>, die den ›Open Source‹-Gedanken liebt und lebt. Seit unserer
+									Gründung 1998 haben wir uns zu einer überaus erfolgreichen und gefragten TYPO3-Agentur
+									entwickelt. Unser Expertenwissen konnten wir seitdem in weit mehr als 350 Projekten und bei
+									der Zusammenarbeit mit über 100 Kunden unter Beweis stellen.</p>
+								<h2>Planen. Entwickeln. Betreiben.</h2>
+								<p>Wir verstehen uns aber keineswegs nur als Profis in Sachen <strong>TYPO3</strong>, vielmehr
+									können wir mit unserem jungen Team von 42 Mitarbeitern alles bieten, was aus einem guten
+									Webauftritt einen perfekten macht: von der Planung über die Entwicklung bis hin zum Betrieb.</p>
+
+								<div class="g">
+									<div class="g-3">
+										<h3>Wir sind dkd</h3>
+										<ul>
+											<li>42 festangestellte Mitarbeiter/-innen</li>
+											<li>12 Jahre Erfahrung mit TYPO3</li>
+											<li>Mehr als 350 erfolgreich abgeschlossene Projekte</li>
+											<li>Über 100 zufriedene Kunden</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>Wir "sind" TYPO3</h3>
+										<ul>
+											<li>12 zertifizierte TYPO3 Integratoren</li>
+											<li>3 TYPO3 Core Developer</li>
+											<li>2 TYPO3 Extension Maintainer</li>
+											<li>1 TYPO3 Association Press Officer</li>
+											<li>1 TYPO3 Usability Team Leader</li>
+											<li>1 TYPO3 Design Team Member</li>
+											<li>1 TYPO3 Buchautor</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>Wir sind mehr</h3>
+										<ul>
+											<li>Multidisziplinäres Team aus Entwicklern, Designern und Marketingexperten</li>
+											<li>Gute Lehrer und gute Zuhörer (Umfassende Schulungs- und Supportleistungen)</li>
+											<li>›Enterprise Search‹-Experten<br />(<a href="http://www.typo3-solr.com/" title="Erfahren Sie mehr über Apache Solr für TYPO3">Apache Solr für TYPO3</a>)</li>
+											<li>Entwickler mit Fingerspitzengefühl (Sencha Touch)</li>
+										</ul>
+									</div>
+								</div>
+
+								<p><strong>dkd Internet Service GmbH</strong><br />
+								development // kommunikation // design<br />
+								Søren Schaffstein<br />
+								Kaiserstraße 73<br />
+								60329 Frankfurt<br />
+							<br />
+								fon: +49 69 2475218-0<br />
+								fax: +49 69 2475218-99<br />
+								email: <a href="mailto" title="E-Mail an dkd senden">info@dkd.de</a><br />
+								twitter: <a href="http://twitter.com/dkd_de" title="dkd auf Twitter folgen">http://twitter.com/dkd_de</a><br />
+								facebook: <a href="http://www.facebook.com/www.dkd.de" title="dkd auf Facebook">http://www.facebook.com/www.dkd.de</a><br />
+								web: <a href="http://www.dkd.de" title="dkd Website besuchen">http://www.dkd.de</a></p>
+
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="7f1f47af-0cb5-47d6-9f99-febdff614d9b" type="TYPO3.Neos.ContentTypes:Page" nodeName="domainfactory" locale="" hidden="true">
+				<properties>
+					<title>domainFACTORY GmbH</title>
+				</properties>
+				<node identifier="542812ba-bf3d-42f8-a373-b2ccb299473a" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+					<node identifier="3d9cacf9-0f25-45e9-b821-84046721bece" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>domainFACTORY GmbH</headline>
+							<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH" class="intext right"/>
+								<p>In it's 10th year Munich-based domainFACTORY GmbH is
+								one of the leading webhosting companies in Germany, serving more than 100,000 customers
+								and managing well over 700,000 domain names. Following its claim "Premium Hosting. Premium
+								Service." the company managed to establish itself as a high-quality provider with an
+								excellent price-performance ratio.</p>
+
+								<p>Due to the combination of high-end server systems, extensive feature sets and outstanding
+								customer service, domainFACTORY is capable of satisfying the high requirements of business
+								customers and professionals. For agencies and resellers there is a product line available
+								enabling companies to offer webhosting services in their own name.</p>
+
+								<p>With &quot;JiffyBox,&quot; domainFACTORY recently launched an innovative cloud hosting
+								service. The flexible on-demand virtual servers come with many interesting features and
+								full remote control using the RESTful API. For cloud servers from JiffyBox you only pay
+								what you use without any minimum contract commitments.</p>
+
+								<p>Offering a full range of webhosting services, from domain registration to dedicated and
+								cloud servers, domainFACTORY also hosts many TYPO3-based projects for small private firms
+								as well as big enterprise websites. The company's own website has also been running on
+								TYPO3 for many years.</p>
+
+								<h2>Facts</h2>
+
+								<ul>
+									<li>One of the leading webhosting companies in Germany</li>
+									<li>Over 100,000 customers with more than 700,000 domain names</li>
+									<li>High quality provider with excellent price-performance ratio</li>
+									<li>Webhosting services from domain registration to dedicated servers</li>
+									<li>Product line for agencies and resellers</li>
+									<li>Innovative cloud hosting service &quot;JiffyBox&quot;</li>
+								</ul>
+
+								<h2>Contact</h2>
+
+								<p>Website: <a href="http://www.df.eu">http://www.df.eu</a><br />
+								E-mail: <a href="mailto:support@df.eu">support@df.eu</a><br />
+								<br />Hotline: 0800 323 98 00 (outside Germany: +49 89 552660)</p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="4abcb8d5-c82a-42b1-8692-46fe648a68c9" type="TYPO3.Neos.ContentTypes:Page" nodeName="drc-systems" locale="">
+				<properties>
+					<title>DRC Systems</title>
+				</properties>
+				<node identifier="fd95edba-ad55-4f85-9f22-521d04c2fa64" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="">
+					<node identifier="48d6b2b1-0aa1-4578-a4f5-15f6ef1f931d" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>DRC Systems</headline>
+							<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3Con13DeTypo3Org/Assets/Sponsors/drc_systems.png" width="113" height="120" border="0" alt="jweiland.net" class="intext right" />
+
+								<p>DRC Systems is a software and web development company based in India & USA with a primary focus on serving the needs for the clients across the globe mainly from Germany, Switzerland, Netherlands, Austria, Denmark and other parts of Europe, USA, Canada, UK, Middle East with staff strength of 120+ employees. We at DRC are capable of delivering the software development projects in PHP, .Net and open source technologies like TYPO3, Joomla, Wordpress and Drupal. We are well equipped with resource set that takes care of the following areas of the services i.e. Software Development, Web Design Solutions , Product Development, Web Application Development and Mobile Apps Development.</p>
+
+<p>DRC Systems is one of the leading service providers for TYPO3 in Asia with a full-fledged department comprising of Designers, Developers and Project Managers.TYPO3 Techie is division of DRC Systems. TYPO3 Techies help customers worldwide to build simple websites to complex web solutions using TYPO3 CMS.</p>
+
+<p>We have a Certified TYPO3 Integrator and a team of TYPO3 experts who have been working with TYPO3 CMS since several years and have a wide domain expertise. We are silver member of TYPO3 association and also a NASSCOM member. Along with our customers and our people we consider TYPO3 has a major contribution in our success.</p>
+
+<p>We incept, collaborate and execute to deliver TYPO3 solutions.</p>
+
+<h3>Contact</h3>
+
+<p>
+DRC Systems India Pvt. Ltd.<br/>
+409, Maurya Atria, Lane Opp. to Atithi Dining Hall,<br/>
+Bodakdev, Ahmedabad – 380054<br/>
+India<br/>
+ <br/>
+Contact Person: Hiten Barchha<br/>
+mobile: +91 990 999 0875<br/>
+phone: +91 79 26871683<br/>
+email: <a href="mailto:info@drcsystems.com">info@drcsystems.com</a><br/>
+<br/>
+Web: <a href="http://www.drcsystems.com" target="_blank">http://www.drcsystems.com</a> | <a href="http://www.typo3techie.com" target="_blank">http://www.typo3techie.com</a><br/>
+<br/>
+skype: drcsystems<br/>
+twitter: <a href="http://www.twitter.com/drcsystems" target="_blank">http://www.twitter.com/drcsystems</a><br/>
+facebook: <a href="http://www.facebook.com/pages/DRC-Systems/262397933828988" target="_blank">http://www.facebook.com/pages/DRC-Systems/262397933828988</a><br/>
+</p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+
+		</node>
+		<node identifier="d9ccd4d7-040b-4348-befd-ab7e84b0dcc0" type="TYPO3.Neos.ContentTypes:Page" nodeName="call-for-papers" locale="en" hiddenInIndex="true">
+			<properties>
+				<title>Call for Papers</title>
+			</properties>
+			<node identifier="beb74c5f-aa93-4707-a650-afc04eab0356" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="ddbdab9a-4150-4810-942c-f9b235166993" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+					<properties>
+						<headline>Become a T3CON13 Stuttgart speaker!</headline>
+						<text><![CDATA[
+								<p>This is an official call to all TYPO3 or Web experts who are interested in giving a talk at the
+								T3CON13 Europe in Stuttgart City. Speakers will benefit from a free entrance to the conference and
+								will appear on the conference’s website along with the name of their company and a backlink to their
+								website..</p>
+
+								<p>As we are expecting a varied audience, the topics may range from technical to business management,
+								communications and user experience. Each talk should be about 45 minutes in length. Please reserve
+								5 to 10 minutes for questions.</p>
+
+								<p>Here is a list of ideas for topics that may be of special interest this year:
+								<ul>
+									<li>Managing a TYPO3 team, from text contributors to developers</li>
+									<li>How TYPO3 compares to other CMS, how can it interact?</li>
+									<li>True stories: Successful projects with TYPO3</li>
+									<li>The future of TYPO3</li>
+								</ul>
+								</p>
+
+								<p>Please submit your application before the 20th of July 2013.
+								Once logged in using your typo3.org account you will be able to write the following:
+								<ul>
+									<li>A short biography (100 to 1000 words) and add a picture</li>
+									<li>Create a talk (paper) with a long and short abstract</li>
+									<li>Contact information, co-speaker if needed and comments</li>
+								</ul>
+								Note: If you register a new typo3.org account please allow up to an hour for the account to be
+								propagated throughout the systems involved.</p>
+
+								<p>If you have any question about the conference or need feedback about a talk you think you could
+								give, just write to <a href="mailto:t3con@typo3.org">t3con@typo3.org</a>.</p>
+							]]></text>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="807018b8-75a0-4f99-af67-0a5f400ace3d" type="TYPO3.Neos.ContentTypes:Page" nodeName="best-paper" locale="en">
+			<properties>
+				<title>Best Paper Voting</title>
+			</properties>
+			<node identifier="66c4c127-bccb-4293-87f9-e3ed32e86213" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="mul">
+				<node identifier="9acf7624-7a8a-416c-8ff6-30ca1009eb89" type="TYPO3.Neos.ContentTypes:Html" nodeName="text1" locale="en">
+					<properties>
+						<source><![CDATA[
+								<iframe src="http://bestpaper.t3con13de.typo3.org/" style="border: 0px none; height: 600px; width: 100%;" seamless>
+									<a href="http://bestpaper.t3con13de.typo3.org/">Go here for best paper voting</a>
+								</iframe>
+							]]></source>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="437099ef-42ec-4150-bced-298760846a5c" type="TYPO3.Neos.ContentTypes:Page" nodeName="contact" locale="en">
+			<properties>
+				<title>Contact</title>
+			</properties>
+			<node identifier="a93f9b9e-bd20-4cfc-b9e5-f27f27b43290" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="17d614fb-26e3-4dee-b68f-11bb22c060dc" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+					<properties>
+						<headline>Conference Organization</headline>
+						<text><![CDATA[
+								<p>The conference is organized by the non profit organization <a href="http://association.typo3.org/" target="_blank">TYPO3 Association</a> .</p>
+								<p>You can send enquiries to “<script type="text/javascript">
+								<!--
+								h='&#116;&#x79;&#112;&#x6f;&#x33;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#116;&#x33;&#x63;&#x6f;&#110;';e=n+a+h;
+								document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+								// -->
+								</script><noscript>&#116;&#x33;&#x63;&#x6f;&#110;&#32;&#x61;&#116;&#32;&#116;&#x79;&#112;&#x6f;&#x33;&#32;&#100;&#x6f;&#116;&#32;&#x6f;&#114;&#x67;</noscript>” or use the form below.</p>
+								]]></text>
+					</properties>
+				</node>
+				<node identifier="c9be59b7-5bd5-4e09-b79e-713f7f7235e0" type="TYPO3.MailForm:Plugin" nodeName="mailform" locale="en"/>
+				<node identifier="a9f18ab5-e603-4967-b46a-ec6d22f7dae8" type="TYPO3.Neos.ContentTypes:Text" nodeName="text2" locale="en">
+					<properties>
+						<headline>Website</headline>
+						<text><![CDATA[
+								<p>This website runs on an alpha version of TYPO3 Phoenix and is maintained by the TYPO3 core team. You can reach us at:<br /><a href="typo3-team-core-v5@lists.typo3.org"><script type="text/javascript">
+								<!--
+								h='&#108;&#x69;&#x73;&#116;&#x73;&#46;&#116;&#x79;&#112;&#x6f;&#x33;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#116;&#x79;&#112;&#x6f;&#x33;&#x2d;&#116;&#x65;&#x61;&#x6d;&#x2d;&#x63;&#x6f;&#114;&#x65;&#x2d;&#118;&#x35;';e=n+a+h;
+								document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+								// -->
+								</script><noscript>&#116;&#x79;&#112;&#x6f;&#x33;&#x2d;&#116;&#x65;&#x61;&#x6d;&#x2d;&#x63;&#x6f;&#114;&#x65;&#x2d;&#118;&#x35;&#32;&#x61;&#116;&#32;&#108;&#x69;&#x73;&#116;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#116;&#x79;&#112;&#x6f;&#x33;&#32;&#100;&#x6f;&#116;&#32;&#x6f;&#114;&#x67;</noscript></a></p>
+								]]></text>
+					</properties>
+				</node>
+			</node>
+			<node identifier="cbad6f13-e12a-4c4c-8903-7e67cb7afbd3" type="TYPO3.Neos.ContentTypes:Page" nodeName="faq" locale="en">
+				<properties>
+					<title>FAQ</title>
+				</properties>
+				<node identifier="b6ddabac-7861-401a-9dda-6908819113a2" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="5d33ae2f-3d18-4a3b-8da5-73053109a8c6" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+						<properties>
+							<headline>Frequently Asked Questions</headline>
+							<text><![CDATA[<h2>Why do I have to pay German VAT?</h2>
+
+								<p>Even if you are from an EU country, the US or some other place in the world, you have to pay German Value Added Tax (VAT) for the conference fee. The reason is that the conference is held in Germany and all "proceedings" occur within the country. There is no way that someone could claim that a good is being shipped outside of Germany.</p>
+								<p>For example, when staying in a hotel in Germany, the bill is VAT-taxed as well. So, unfortunately, the VAT issue is out of our hands.</p>
+								<p>If you attend on behalf of a company then your tax official can tell you if and how to get the VAT back.</p>
+
+								<h2>How do I pay using a bank transfer?</h2>
+
+								<p>Bank transfers usually take about three working days to be processed. There are a couple of reasons why your transfer may not appear immediately in your online account.</p>
+								<p>First, you may have placed the order after the bank has processed their orders for the day (not all banks process even online banking immediately).</p>
+								<p>Second, we usually check our bank transfer records every day, but on some days this may not be possible.</p>
+								<p>On the day the bank transfer arrives in our bank account, we will process the payment and record the exact amount we received. If there is a gap between the amount paid and the amount due, the difference will be requested.</p>
+								<p>If you do not see your payment processed within 10 days, then something has gone wrong. Usually payments will be processed much faster, but please do not contact us earlier regarding bank transfers.</p>
+
+								<h2>How do I book two half-day tutorials?</h2>
+
+								<p>First register regularly for the conference and book one of the tutorials along with the registration. After finishing your registration you'll be logged-in automatically to your newly-created website account (login information will be sent to you by email, too). As a logged-in user you can return any time to the registration page ("Visitors"-&gt;"Registration &amp; Order") and book an additional tutorial. Please take care not to "double book" - ordering two tutorials that run in parallel.</p>
+
+								<h2>I only want to book tutorials, why does this not work?</h2>
+
+								<p>We believe it is important for everyone to attend the main conference, so we do not offer an option to attend only the tutorials. The tutorials can only be booked if you are a regular attendee.</p>
+
+								<h2>I booked one full day tutorial, why am I charged for two half day tutorials?</h2>
+
+								<p>Each of the tutorials is only half a day long. So even when a topic continues for a full day, it will show on your invoice as two half-day tutorials.</p>
+
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="68beabc0-9d85-44cb-a557-9dc8be710692" type="TYPO3.Neos.ContentTypes:Page" nodeName="press" locale="en" hidden="true">
+				<properties>
+					<title>Press</title>
+				</properties>
+				<node identifier="2331b329-50b9-48d6-aeec-c229ce1c63a9" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="6c057ead-83f0-4aad-a645-d6f7ecc9324c" type="TYPO3.Neos.ContentTypes:Text" nodeName="text1" locale="en">
+						<properties>
+							<headline>Press</headline>
+							<text><![CDATA[<p>This press section is intended to help you with your work as an active
+								journalist. You will be able to accredit online for T3CON13 at this website and we will try
+								to assist you by all means possible.</p>
+
+								<h2>What you get as an accredited journalist</h2>
+
+								<ul>
+									<li>Free entry to the conference</li>
+									<li>First-hand press information about the conference</li>
+									<li>Priority contact for important questions regarding T3CON13 and TYPO3</li>
+									<li>Exclusive invitation and free entry to TYPO3 annual &quot;press get together&quot;</li>
+								</ul>
+								]]></text>
+						</properties>
+					</node>
+					<node identifier="a38d951f-988b-4e8f-aad6-0839bcb0a302" type="TYPO3.Neos.ContentTypes:Text" nodeName="text2" locale="en">
+						<properties>
+							<headline>Press contact</headline>
+							<text><![CDATA[<p><strong>Søren Schaffstein</strong><br />
+								TYPO3 Association Press Officer</p>
+
+								<p>Phone: +49 69 2475218 0<br />
+								Fax: +49 69 2475218 99<br />
+								Email: press@typo3.org</p>
+
+								<p>TYPO3 Association - Press Office<br/>
+								Søren Schaffstein<br />
+								Sihlbruggstrasse 105<br />
+								CH-6340 Baar<br />
+								Switzerland</p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="10cffa76-b5ae-45ca-8419-d11c914dda63" type="TYPO3.Neos.ContentTypes:Page" nodeName="legal-notice" locale="en">
+				<properties>
+					<title>Legal Notice</title>
+				</properties>
+				<node identifier="dd9d6ca4-8449-414d-875a-b7d1534721ae" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="326d39ae-0d4a-4a46-bda5-22c2ea5ba84f" type="TYPO3.Neos.ContentTypes:Text" nodeName="4db6f2f239013" locale="en">
+						<properties>
+							<headline>Legal Notice</headline>
+							<text><![CDATA[<p>TYPO3 Association<br />
+								Sihlbruggstraße 105<br />
+								6340 Baar<br />
+								Switzerland
+								</p>
+
+								<p>Represented by the <a href="http://association.typo3.org/board/ref/assoc/" target="_blank">board of the TYPO3 Association</a></p>
+
+								<h2>Contact</h2>
+
+								<p>Facsimile: +41 (0)41 511 00 39<br />
+								Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
+
+								<h2>Registry entry</h2>
+
+								<p>Handelsregister des Kantons Zug, CH-170.6.000.178-2</p>
+
+								<h2>VAT ID</h2>
+
+								<p>VAT ID per §27a UStG: DE267193843</p>
+
+								<h2>Personal data protection</h2>
+
+								<p>If you provide us with personal data (e.g. your name, address or
+								email), that data will be used only for the indicated purpose. It will
+								not be given to third parties.</p>
+
+								<p>A cookie is a little textfile that is stored from your browser on
+								your system. We use cookies to keep your session activated. We do not
+								use cookies for personal data recognition, but only to collect anonymous
+								statistical data. If you choose to disable cookies, you may still use
+								this website, but some functionality will not be available.</p>
+
+								<p>For statistical reasons we collect the following technical data:<ul>
+								<li>Requested file</li>
+								<li>Type of browser</li>
+								<li>Type of operating system</li>
+								<li>Referrer URL</li>
+								<li>Time and date of the use of the website</li>
+								<li>Your IP address</li>
+								</ul>
+								This data is collected anonymously and will be kept separately from
+								private user data that you might have given to us. It will not be given to
+								third parties.</p>
+
+								<h2 id="image-reference">Image Reference</h2>
+								<ul>
+									<li><a href="http://www.flickr.com/photos/ralphunden/213838045/">Stuttgart at night</a> by <a href="http://www.flickr.com/photos/ralphunden/">ralphunden</a></li>
+								</ul>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="d511a3c7-601a-433a-89ed-bb9c9325a49c" type="TYPO3.Neos.ContentTypes:Page" nodeName="my" locale="en">
+			<accessRoles>
+				<role>Conference_Visitor</role>
+			</accessRoles>
+			<properties>
+				<title>My T3CON13</title>
+			</properties>
+			<node identifier="3dd79c06-918a-47ef-afcd-2e2289c07fe6" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+				<node identifier="1afefd7e-e621-44f4-8665-e582ee7f8580" type="TYPO3.Conference:Plugin" nodeName="overview" locale="en">
+					<properties>
+						<controller>Account\Overview</controller>
+					</properties>
+				</node>
+			</node>
+			<node identifier="d765b971-68ca-427b-a827-07c1b158918b" type="TYPO3.Neos.ContentTypes:Page" nodeName="speaker-profile" locale="en">
+				<accessRoles>
+					<role>Conference_Visitor</role>
+				</accessRoles>
+				<properties>
+					<title>Speaker Profile</title>
+				</properties>
+				<node identifier="c35a1aa0-54b6-4f0b-a4d6-054b38c6d86f" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="20a5f294-be55-4023-8d7c-d6b5743bae8e" type="TYPO3.Conference:Plugin" nodeName="speakerProfile" locale="en">
+						<properties>
+							<controller>Account\SpeakerProfile</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="aa04f24c-becf-46a2-a122-ba607cbf606c" type="TYPO3.Neos.ContentTypes:Page" nodeName="papers" locale="en">
+				<accessRoles>
+					<role>Conference_Visitor</role>
+					<role>Speaker</role>
+					<role>TrackChair</role>
+					<role>Administrator</role>
+				</accessRoles>
+				<properties>
+					<title>Papers</title>
+				</properties>
+				<node identifier="48f81f59-8f33-4293-8b6f-b7fbc57198af" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="949c6723-7da4-437a-aa59-cb9ba11f46bf" type="TYPO3.Conference:Plugin" nodeName="myPapers" locale="en">
+						<accessRoles>
+							<role>Speaker</role>
+						</accessRoles>
+						<properties>
+							<controller>Conference\Paper</controller>
+							<action>myPapers</action>
+						</properties>
+					</node>
+					<node identifier="9fa489a0-5d07-414d-8085-9f06afd18cf5" type="TYPO3.Neos.ContentTypes:Text" nodeName="myPapersText" locale="en">
+						<accessRoles>
+							<role>TrackChair</role>
+						</accessRoles>
+						<properties>
+							<headline>Review Papers</headline>
+							<text><![CDATA[<p>As TrackChair you can <a href="my/papers/review.html">Review submitted Papers</a>.</p>
+								]]></text>
+						</properties>
+					</node>
+					<node identifier="5b9396d7-2494-4dc3-8fc7-2b7e4a2461f5" type="TYPO3.Neos.ContentTypes:Text" nodeName="votingResultsText" locale="en">
+						<accessRoles>
+							<role>Administrator</role>
+						</accessRoles>
+						<properties>
+							<headline>Paper voting results</headline>
+							<text><![CDATA[<p>As Administrator you have access to the <a href="my/papers/voting-results.html">paper voting results</a>.</p>
+								]]></text>
+						</properties>
+					</node>
+				</node>
+				<node identifier="5f0d1e7b-3f87-41bd-8217-b22a143003a6" type="TYPO3.Neos.ContentTypes:Page" nodeName="new" locale="en">
+					<accessRoles>
+						<role>Speaker</role>
+					</accessRoles>
+					<properties>
+						<title>New paper</title>
+					</properties>
+					<node identifier="e6acf205-8eae-4bc2-94ff-7faac1b293b9" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+						<node identifier="54b30f41-5edb-4371-bd83-fec00acbbe88" type="TYPO3.Conference:Plugin" nodeName="newPaper" locale="en">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>new</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="0d6fd1f3-5242-4e1a-865c-e09537c6b3cb" type="TYPO3.Neos.ContentTypes:Page" nodeName="edit" locale="en" hiddenInIndex="true">
+					<accessRoles>
+						<role>Speaker</role>
+						<role>TrackChair</role>
+						<role>Administrator</role>
+					</accessRoles>
+					<properties>
+						<title>Edit paper</title>
+					</properties>
+					<node identifier="a35e1e87-5432-4862-b054-f7e4b8e46261" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+						<node identifier="a3033315-716a-4dd3-90cb-051fa40f071e" type="TYPO3.Conference:Plugin" nodeName="editPaper" locale="en">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>edit</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="0473e436-2f4d-4850-8865-143f7e703baa" type="TYPO3.Neos.ContentTypes:Page" nodeName="show" locale="en" hiddenInIndex="true">
+					<accessRoles>
+						<role>Conference_Visitor</role>
+						<role>Speaker</role>
+						<role>TrackChair</role>
+						<role>Administrator</role>
+					</accessRoles>
+					<properties>
+						<title>Show paper</title>
+					</properties>
+					<node identifier="27bd54a6-fa8d-4ba3-91d7-9ea366d21083" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+						<node identifier="1a5f36df-4421-4c65-982d-2a4f1792a523" type="TYPO3.Conference:Plugin" nodeName="showPaper" locale="en">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>show</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="542d7cf8-12db-4e7f-bec5-aa0ab1191e18" type="TYPO3.Neos.ContentTypes:Page" nodeName="review" locale="en">
+					<accessRoles>
+						<role>TrackChair</role>
+					</accessRoles>
+					<properties>
+						<title>Review papers</title>
+					</properties>
+					<node identifier="1e4745ad-b49f-46ca-8004-d5c4cb6c6d43" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+						<node identifier="b6a46d93-4801-43cc-9280-58774a7ad0e1" type="TYPO3.Conference:Plugin" nodeName="reviewPaper" locale="en">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>review</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="c3b88133-eae9-4f36-bc36-4e7428b0f5bb" type="TYPO3.Neos.ContentTypes:Page" nodeName="vote" locale="en" hidden="true">
+					<accessRoles>
+						<role>Conference_Visitor</role>
+						<role>Speaker</role>
+						<role>TrackChair</role>
+						<role>Administrator</role>
+					</accessRoles>
+					<properties>
+						<title>Vote papers</title>
+					</properties>
+					<node identifier="ea7c0bb8-474a-487f-bcb3-0ca249a21569" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+						<node identifier="b10f5230-4277-45f0-9512-4316ac5f4186" type="TYPO3.Conference:Plugin" nodeName="votePaper" locale="en">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>voting</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="3ba0fd73-b4f3-4f1c-a648-18e79f5ba4b1" type="TYPO3.Neos.ContentTypes:Page" nodeName="voting-results" locale="en">
+					<accessRoles>
+						<role>Administrator</role>
+					</accessRoles>
+					<properties>
+						<title>Voting results</title>
+					</properties>
+					<node identifier="c2f9afe0-c085-43a3-8103-f25fcad56a90" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+						<node identifier="4949ed1e-a068-40da-b0e5-738481b82589" type="TYPO3.Conference:Plugin" nodeName="votingResults" locale="en">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>votingResults</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node identifier="3f5d7971-3a42-461d-b2b9-0dc03aefa604" type="TYPO3.Neos.ContentTypes:Page" nodeName="conference" locale="en">
+				<accessRoles>
+					<role>Administrator</role>
+				</accessRoles>
+				<properties>
+					<title>Edit Conference Data</title>
+				</properties>
+				<node identifier="75bda455-9cec-4387-8ffb-f5121b427c7b" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="06c616e6-2b6a-4188-a50c-b21391be0695" type="TYPO3.Conference:Plugin" nodeName="conference" locale="en">
+						<properties>
+							<controller>Conference</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="5e77cec6-e440-42ca-afc6-8ff7281a07e9" type="TYPO3.Neos.ContentTypes:Page" nodeName="user-management" locale="en">
+				<accessRoles>
+					<role>Administrator</role>
+				</accessRoles>
+				<properties>
+					<title>User management</title>
+				</properties>
+				<node identifier="fbd05cf0-ab99-4b77-97e6-fbbf4d9decb6" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="en">
+					<node identifier="9ff8bc3e-6a57-46e8-a27e-0aa813a80fe8" type="TYPO3.Conference:Plugin" nodeName="user" locale="en">
+						<properties>
+							<controller>Account\Manage</controller>
+							<action>find</action>
+						</properties>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="27638c83-1c1e-417a-8ce2-ebdc64a3eeca" type="TYPO3.Neos.ContentTypes:Page" nodeName="login" locale="mul" hiddenInIndex="true">
+			<properties>
+				<title>Login</title>
+			</properties>
+			<node identifier="79accf08-ba71-4a2f-91a4-f19232eeccda" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="mul">
+				<node identifier="829c64bc-37c0-40bb-b5a5-17dbc3b11111" type="TYPO3.Conference:Plugin" nodeName="login" locale="mul">
+					<properties>
+						<controller>Account\Login</controller>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="e8258c2d-638b-42a1-a853-90c863308fd4" type="TYPO3.Neos.ContentTypes:Page" nodeName="logout" locale="mul" hiddenInIndex="true">
+			<properties>
+				<title>Logout</title>
+			</properties>
+			<node identifier="3d1eda58-1bae-4d5b-a640-07ef47da7c8d" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale="mul">
+				<node identifier="adbbe3ed-c03a-46a4-9133-f4f2ee459895" type="TYPO3.Conference:Plugin" nodeName="logout" locale="mul">
+					<properties>
+						<controller>Account\Login</controller>
+						<action>logout</action>
+					</properties>
+				</node>
+			</node>
+		</node>
+	</site>
+</root>

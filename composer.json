@@ -1,0 +1,22 @@
+{
+    "name": "typo3/t3con13detypo3org",
+    "type": "typo3-flow-site",
+    "description": "Site package for the T3CON13DE website",
+    "version": "1.0.0",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@git.typo3.org:FLOW3/Packages/TYPO3.Conference.git"
+        }
+    ],
+    "require": {
+        "typo3/neos": "dev-master",
+        "typo3/conference": "dev-master",
+        "typo3/mailform": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "TYPO3\\T3ConDeTypo3Org": "Classes"
+        }
+    }
+}

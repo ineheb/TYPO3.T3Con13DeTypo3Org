@@ -1,0 +1,204 @@
+(function($) {
+	// Calculate fixed tabs width
+	$.fn.calculateTabsWidth = function() {
+
+	$(this).each(function() {
+
+		var o = $(this);
+		var list = $(o).find('li');
+		var oWidth = o.outerWidth(true);
+
+		o.parent().width(oWidth); // fix for FF4 :)
+
+		var tabsNo = $(list).length;
+		tabsNo = (tabsNo == 0) ? 1 : tabsNo;
+
+		var tabsWidth = 0, addWidth = 0, mod = 0, counter = 0;
+
+		$(list).each(function() {
+			tabsWidth += $(this).outerWidth(true);
+		});
+
+		mod = (oWidth - tabsWidth) % tabsNo;
+		addWidth = (oWidth - mod - tabsWidth) / tabsNo;
+
+		$(list).each(function() {
+
+			newWidth = (counter < mod) ? $(this).width() + addWidth + 1 : $(this).width() + addWidth;
+
+			$(this).css({'width': newWidth});
+			$(this).find('a').css({'width': newWidth-1}); // for IE7 fix
+
+			counter++;
+		});
+
+	});
+
+	}
+})(jQuery);
+
+
+(function($) {
+		// Accordion
+	$.fn.accordion = function() {
+
+	$(this).find('> .a-body').each(function(){
+		$(this).data('height', $(this).height());
+	});
+
+	$(this).find('> .a-h:not(.open)').addClass('closed').next().hide().css('height',0);
+
+	$(this).find('> .a-h').click(function(){
+	  if($(this).hasClass('closed')){
+	    var domCurrent = $(this);
+	    var intCurrentHeight = domCurrent.next().data('height');
+	    var domOpened = $(this).siblings('.open');
+
+	    domOpened.addClass('closed').removeClass('open')
+	        .next().animate({'height': 0}, function() {$(this).hide()});
+	    domCurrent.removeClass('closed').addClass('open')
+	        .next().show().animate({'height': intCurrentHeight});
+	  }
+	});
+
+}
+})(jQuery);
+
+(function($) {
+		// Social box
+	$.fn.socialBox = function() {
+
+	var o = $(this),
+		$body = o.find('.b-social-body'),
+		$opened = o.find('.b-social-opened'),
+		$closed = o.find('.b-social-closed'),
+		$toggle = o.find('.b-social-toggle'),
+		o_height = $opened.height(),
+		o_closed_height = $closed.height(),
+		sOpenedClass = 'b-social-open',
+		sClosedClass = 'b-social-close';
+
+	$closed.css('position', 'absolute');
+
+	if(o.hasClass(sOpenedClass)) {
+		$closed.hide();
+	} else {
+		$body.height(o_closed_height);
+		$opened.hide();
+	}
+
+	$toggle.click(function(){
+		if(o.hasClass(sOpenedClass)){
+			$closed.fadeIn();
+			$opened.fadeOut();
+
+			$body.animate({'height': o_closed_height});
+			o.removeClass(sOpenedClass).addClass(sClosedClass);
+		} else {
+			$closed.fadeOut();
+			$opened.fadeIn();
+
+			$body.animate({'height': o_height});
+			o.addClass(sOpenedClass).removeClass(sClosedClass);
+		}
+	});
+
+}
+})(jQuery);
+
+$(document).ready(function(){
+	$('body').removeClass('js-off');
+
+	$.tools.tabs.addEffect("default", function(tabIndex, done) {	// Removed display none for inactive tabs
+		this.getPanes().removeClass('show-tab').addClass('hide-tab').eq(tabIndex).removeClass('hide-tab').addClass('show-tab');
+		done.call();
+	});
+
+	$(".tabs:not(.lite-tabs)").tabs("> .tab-panes > div", {tabs: 'li', current: 'act'}).calculateTabsWidth();
+
+
+		// Home page Main Scroller/ Tabs
+	if ($('#top-slider').length > 0) {
+
+		$('#top-slider .slider-nav').tabs('#top-slider .slides > .slide', {tabs: 'li', current: 'active', effect: 'fade', fadeInSpeed: 1000, fadeOutSpeed: 1000, rotate: true}).slideshow({interval:7000,autoplay:true});
+
+			// Stop the slider and click event when a button in the slider is clicked
+		$('#top-slider .slides > .slide a.bu').click(function() {
+			var slider = $('#top-slider .slider-nav').tabs('#top-slider .slides > .slide');
+			slider.data('slideshow').stop();
+			slider.data('tabs').getCurrentTab().addClass('active');
+			location.href = $(this).attr('href');
+			return false;
+		});
+
+	}
+	$('.lightbox').colorbox();
+		// END Home page Main Scroller/ Tabs
+
+	if ($('#small-slider').length > 0) {
+		$("#small-slider .slider-content").scrollable({circular: true, next: '.slider-nav .next', prev: '.slider-nav .prev'}).autoscroll({interval:4000});
+		$('.slider-nav .next, .slider-nav .prev').click(function() { return false; })
+	}
+
+	if ($('.ticker-slider').length > 0) {
+		$('.ticker-slider .slider-nav').tabs('.slide', {tabs: 'li', current: 'active', effect: 'fade', fadeInSpeed: 1000, fadeOutSpeed: 1000, rotate: true}).slideshow({autoplay:true});
+	}
+
+	$('.accordion').accordion();
+
+		// Social block on homepage
+	$('.b-social').socialBox();
+
+		// character counter
+	$('.character-counter').each(function(){
+		var data = $.metadata.get(this);
+		$(this).jqEasyCounter({
+			maxChars: data.maxCharacters,
+			maxCharsWarning: data.maxCharacters - 10,
+			msgFontColor: '',
+			msgFontFamily: '',
+			msgFontSize: '',
+			msgWarningColor: '#e90100'
+		});
+	});
+
+		// table sorter
+	$('table.tablesorter').tablesorter();
+
+	$('tr.paper input[type=checkbox]').click(function() {
+		if ($(this).attr('checked')) {
+			$(this).parent().parent().addClass('accepted');
+		} else {
+			$(this).parent().parent().removeClass('accepted');
+		}
+		calculateScheduleDurations();
+	});
+});
+
+function calculateScheduleDurations() {
+	var totalDuration = 0;
+	var durations = {};
+	$('tr.paper').each(function() {
+		if ($(this).hasClass('accepted')) {
+			var data = $(this).metadata();
+			if (durations[data.type] == undefined) {
+				durations[data.type] = parseInt(data.duration);
+			} else {
+				durations[data.type] += parseInt(data.duration);
+			}
+			totalDuration += parseInt(data.duration);
+		}
+	});
+	if ($('#scheduleDurations').length == 0) {
+		$('#aside-end').replaceWith('<div id="scheduleDurations" class="d" style="clear: both"></div>');
+	}
+	var content = '<table>';
+	content += '<tr><th colspan="2">Schedule duration</th></tr>';
+	content += '<tr><th>Type</th><th>Duration</th></tr>';
+	for (type in durations) {
+		content += '<tr><td>' + type + '</td><td>' + durations[type] + ' minutes</td></tr>';
+	}
+	content += '<tr><th>TOTAL</th><th>' + totalDuration + ' minutes</th></tr>';
+	content += '</table>';
+	$('#scheduleDurations').html(content);
+}
