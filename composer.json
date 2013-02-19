@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "TYPO3\\T3ConDeTypo3Org": "Classes"
+            "TYPO3\\T3Con13DeTypo3Org": "Classes"
         }
     }
 }
